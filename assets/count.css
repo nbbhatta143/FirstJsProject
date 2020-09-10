@@ -26,5 +26,6 @@ button {
   justify-content: center;
 }
 span {
-  widows: 25px;
+  width: 25px;
+  text-align: center;
 }
