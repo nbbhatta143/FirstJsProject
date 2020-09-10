@@ -3,24 +3,28 @@
 }
 
 header {
+  display: flex;
   position: relative;
-  width: 200px;
-  height: 75px;
-  margin: 0 auto;
+  max-width: 650px;
+  height: 250px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 h1 {
-  margin-bottom: 0;
   text-align: center;
+  font-size: 55px;
 }
 button {
-  min-width: 5px;
-  max-width: 35px;
-  max-height: 30px;
-  min-height: 5px;
+  width: 100px;
 }
 #box {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
+}
+span {
+  widows: 25px;
 }
