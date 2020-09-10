@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+button {
+  min-width: 5px;
+  max-width: 35px;
+  max-height: 30px;
+  min-height: 5px;
+}
+#box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
